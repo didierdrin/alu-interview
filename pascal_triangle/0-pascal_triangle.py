@@ -1,7 +1,11 @@
 #!/usr/bin/python3
-
+"""
+This is the modele of pascal triangle
+"""
 def pascal_triangle(n):
-    """Returns a list of integer lists representing the pascArr triangle n"""
+    """
+	Returns a list of integer lists representing the pascArr triangle n
+    """
     if n <= 0:
         return [] 
     pascArr = [[1]]  
